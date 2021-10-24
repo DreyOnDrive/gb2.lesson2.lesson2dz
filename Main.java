@@ -3,7 +3,10 @@ package gb2.lesson2.lesson2dz;
 public class Main {
 
     public static void main(String[] args) {
-        String[][] myArray = {{"1", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}, {"1", "1", "1", "1"}};
+        String[][] myArray = {{"1", "1", "1", "1"},
+                              {"1", "1", "1", "1"},
+                              {"1", "1", "1", "1"},
+                              {"1", "1", "1", "1"}};
 
         try {
             System.out.println("Сумма элементов массива равна " + calculate(myArray));
